@@ -29,7 +29,7 @@ const resolvers = {
       }
 
       const correctPw = await user.isCorrectPassword(password);
-      if (!correctPw) {
+      if (!correctPw) { 
         throw new AuthenticationError('Incorrect credentials');
       }
 
