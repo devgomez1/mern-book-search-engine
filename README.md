@@ -16,6 +16,7 @@ SO THAT I can keep track of books I want to read and have read.
 7. [Questions](#questions)
 
 ## Description:
+
 This is a Google Books API search engine that allows users to search for books and save them to a personal reading list. The original version of the app was built using a RESTful API and now it has been refactored to use a GraphQL API built with Apollo Server. The application is built using the MERN stack with a React front-end, MongoDB database, and Node.js/Express.js server and API.
 
 The new version of the application allows for a more performant user experience by using GraphQL's ability to fetch only the data the user needs, reducing the amount of unnecessary data transfer. This application also demonstrates how to use Apollo Server, a powerful and flexible GraphQL server that allows for easy integration with different data sources.
